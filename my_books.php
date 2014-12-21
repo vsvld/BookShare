@@ -59,7 +59,10 @@ include("header.php");
             } else {
                 echo $user . " a";
             } ?> ajouté(e) <?php echo $total ?> livre(s)</h2>
-        <h3 class="headline"><a href="book_add.php">Ajouter un livre</a></h3>
+
+        <?php if ($login == $user) { ?>
+            <h3 class="headline"><a href="book_add.php">Ajouter un livre</a></h3>
+        <?php } ?>
 
         <?php while ($row = $stmt->fetchObject()) { ?>
         <div class="border-form">

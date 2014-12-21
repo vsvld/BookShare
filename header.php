@@ -8,7 +8,7 @@
             <ul>
                 <li><a href="books.php">Livres</a></li>
                 <li><a href="users.php">Utilisateurs</a></li>
-                <li><a href="about.php">à propos de nous</a></li>
+                <li><a href="about.php">À propos de nous</a></li>
                 <?php if (isset($_SESSION["user"])) { ?>
                     <li><a href="user.php" class="buttonspecial"><?php echo $_SESSION["user"] ?></a></li>
                     <li class="last"><a href="logout.php" class="buttonspecial">Se déconnecter</a></li>

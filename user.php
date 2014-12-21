@@ -65,6 +65,10 @@ include("header.php");
                 <p class="center"><a href="book_add.php">Ajouter un livre</a></p>
                 <p class="center"><a href="my_books.php">Mes livres</a></p>
             </div>
+            <?php } else { ?>
+                <div>
+                    <p class="center"><a href="my_books.php?user=<?php echo $user ?>">Livres</a></p>
+                </div>
             <?php } ?>
         </div>
 

@@ -6,8 +6,12 @@ session_start();
 <html>
 <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <meta charset="utf-8"/>
-    <title>BookShare</title>
+    <meta name="Author" content="Vsevolod Alokhin, Alina Ten"/>
+    <meta name="Keywords" content="book, livre, share, partager, bookcrossing"/>
+    <meta name="Description" content="Cherchez et partagez livres gratuit"/>
+    <title>À propos de nous | BookShare</title>
 </head>
 <body>
 

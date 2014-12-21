@@ -103,7 +103,7 @@ include("header.php");
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 <div id="filtcent"><label>Pays:</label> <input type="text" name="country" value="<?php echo $country ?>">
                 <label>Ville:</label> <input type="text" name="city" value="<?php echo $city ?>">
-                <label>Nom:</label><input type="text" name="name" value="<?php echo $name ?>">
+                <label>Titre:</label><input type="text" name="name" value="<?php echo $name ?>">
                 <label>Auteur:</label><input type="text" name="author" value="<?php echo $author ?>">
                 <label>Langue:</label> <select name="language">
                     <option value=""> </option>
