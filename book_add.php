@@ -133,31 +133,9 @@ try {
     echo "<p>Erreur: " . $e->getMessage() . "</p>\n";
 }
 
+include("header.php");
+
 ?>
-
-<div class="wrapper row1">
-    <header id="header" class="clear">
-        <div id="hgroup">
-            <h1><a href="index.php"><strong>book</strong>share</a></h1>
-
-            <h2>Share. Books. To everyone.</h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="books.php">Livres</a></li>
-                <li><a href="users.php">Utilisateurs</a></li>
-                <li><a href="about.php">À nous</a></li>
-                <?php if (isset($_SESSION["user"])) { ?>
-                    <li><a href="user.php" class="button_special"><?php echo $_SESSION["user"] ?></a></li>
-                    <li class="last"><a href="logout.php" class="button_special">Se déconnecter</a></li>
-                <?php } else { ?>
-                    <li><a href="user_log.php" class="button special">Se connecter</a></li>
-                    <li class="last"><a href="user_reg.php" class="button special">S'inscrire</a></li>
-                <?php } ?>
-            </ul>
-        </nav>
-    </header>
-</div>
 
 <div class="wrapper row2">
     <div id="container" class="clear">
